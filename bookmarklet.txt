@@ -1,0 +1,1 @@
+javascript:(function()%7B var url='https://tomato645.github.io/eruda_insert/script.js'; var d=document; var e=d.createElement('script'); e.src=url; d.getElementsByTagName('head')%5B0%5D.appendChild(e); %7D)();

@@ -1,1 +1,7 @@
-function main(){let script = document.createElement('script');script.src="https://cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } }main();
+// call from bookmarklet
+
+function main() {
+    let script = document.createElement('script'); script.src = "https://cdn.jsdelivr.net/npm/eruda";
+    document.body.appendChild(script);
+    script.onload = function () { eruda.init() }
+} main();
